@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+
+        <div id="container">
+            <div class="sheeesh">
+                <img src="adventurer.svg" alt="blancProfilePic.jepeg" width="150" height="150">
+                <div class="title">
+                    <h1 id="nameTarget">Ashil</h1>
+                    <h4 class="grey" id="roleTarget">Front-End Dev</h4>
+                    <div class="buttons">
+                        <button id="send">send</button>
+                        <button id="editButton">edit</button>
+                    </div>
+                </div>
+                <table class="info" cellspacing="10" cellpadding="">
+                    <tr>
+                        <th>Avaibility</th>
+                        <td class="grey" id="avaibilityTarget">Full time</td>
+                    </tr>
+                    <tr>
+                        <th>Usia</th>
+                        <td class="grey" id="ageTarget">19</td>
+                    </tr>
+                    <tr>
+                        <th>Lokasi</th>
+                        <td class="grey" id="lokasiTarget">current-location</td>
+                    </tr>
+                    <tr>
+                        <th>Pengalaman</th>
+                        <td class="grey" id="expTarget"> - - </td>
+                    </tr>
+                    <tr>
+                        <th>E-mail</th>
+                        <td class="grey">faefau15@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="form">
+                <div class="miniBox">
+                    <input type="text" width="100" class="input" id="nameInput" placeholder="Nama">
+                    <button id="nameSave">Save</button>
+                </div>
+                <div class="miniBox">
+                    <input type="text" width="100" class="input" id="roleInput" placeholder="Role">
+                    <button id="roleSave">Save</button>
+                </div>
+                <div class="miniBox">
+                    <input type="text" width="100" class="input" id="avaibilityInput" placeholder="Avaibility">
+                    <button id="avaibilitySave">Save</button>
+                </div>
+                <div class="miniBox">
+                    <input type="text" width="100" class="input" id="ageInput" placeholder="Age">
+                    <button id="ageSave">Save</button>
+                </div>
+                <div class="miniBox">
+                    <input type="text" width="100" class="input" id="lokasiInput" placeholder="Lokasi" autocomplete="off">
+                    <button id="lokasiSave">Save</button>
+                </div>
+                <div class="miniBox">
+                    <input type="text" width="100" class="input" id="expInput" placeholder="Years-Experience">
+                    <button id="expSave">Save</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
