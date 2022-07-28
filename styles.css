@@ -1,0 +1,130 @@
+* {
+    margin: 0; padding: 0;
+    color: #444; box-sizing: border-box;
+    font-family: Arial; list-style: none;
+    text-decoration: none; letter-spacing: 1px;
+}
+
+nav {
+    width: 100%;    height: 10vh;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    padding: 0 100px;
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+} nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 15%;
+}
+
+#container img {border-radius: 50%;}
+
+
+#container {
+    margin: auto; margin-top: 20px;
+
+    height: 200px; width: 90%;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+ .sheeesh {
+    width: 90%;    height: 200px;
+
+    display: flex;
+    justify-content: start;
+    column-gap: 50px;
+    align-items: center;
+
+    margin:auto;
+} .title {
+    display: flex;
+    justify-content: center;
+    row-gap: 1em;
+    align-items: start;
+    flex-direction: column;
+
+    height: 100%; width: 200px;
+} .buttons button {
+    width: 90px;
+    height: 35px;
+    border-radius: 7px;
+} #send {
+    color: white;
+    border: 1.5px solid transparent;
+    background-color: darkturquoise;
+    transition: 0.3s;
+} #send:hover { background-color: lightblue; } 
+  #editButton {
+    color: lightgrey;
+    border: 1.5px solid lightgrey;
+    background-color: white;
+    transition: 0.3s;
+} #editButton:hover {
+    color: grey;
+    outline-color: grey;
+    background-color: gainsboro ;
+}
+.info {
+    width: 350px;    height: 70%;
+
+    font-size: 12px;    text-align: left;
+} 
+#form {
+    width: 90%; margin: auto;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    row-gap: 20px;
+} #form input {
+    width: 95%;
+    padding: 7px 20px;
+    border-radius: 10px;
+    /* outline-color: transparent; */
+    outline: none;
+    border: 3px solid lightblue;
+    transition: 0.5s;
+} #saveEdit {
+    width: 40%;
+    padding: 5px 20px;
+    border: 1.5px solid darkturquoise; outline: none;
+    border-radius: 10px;
+    color: darkturquoise;
+    background-color: rgba(0, 206, 209, 0.055);
+    transition: 0.3s;
+} #saveEdit:hover {
+    color: white;
+    background-color: darkturquoise;
+} .miniBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    background-color: lightblue;
+    border-radius: 10px;
+    overflow: hidden;
+} .miniBox button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 5%;
+}
+
+#container.edit {
+    height: 80vh;
+} #form.active {
+    display: flex;
+} .grey {
+    color: lightgrey;
+}
